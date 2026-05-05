@@ -1,139 +1,116 @@
 # NMR Spectra Analysis Model
 
-Machine learning pipeline for analyzing **¹H NMR spectra** and predicting chemical compounds from spectral data.
+Browser showcase app for a trained **¹H + ¹³C NMR fusion model**.
 
-This repository focuses on training and evaluating machine learning models on NMR spectral vectors.
+The app runs locally in Python and opens a web interface in your browser. It supports Ubuntu/Linux and Windows through the same codebase.
 
-The dataset used in this project is synthetically generated using the companion repository:
+## What the app does
 
-**Synthetic dataset generator:**
-https://github.com/golianr/SyntheticNmrGenerator
+- loads a fixed model export named `nmr_artifacts_fusion.zip`
+- accepts ¹H and ¹³C inputs as `.npy`, vector CSV/TXT, XY spectrum CSV/TXT, or peak-list CSV/TXT
+- preprocesses inputs to the model vector length
+- plots both prepared spectra
+- predicts compounds using the fusion model
+- shows detected compounds, top probabilities, and optional expected-label check
+- exports prepared vectors and prediction CSV files
 
----
+## Required model file
 
-# Project Overview
+Put your trained Colab export ZIP into the project root and name it exactly:
 
-The goal of this project is to develop a machine learning system capable of recognizing organic compounds from **1D ¹H NMR spectra**.
-
-The project pipeline consists of two major components:
-
-1. **Synthetic dataset generation**
-   NMR spectra are generated using a custom synthetic spectrum generator.
-
-2. **Spectral analysis model**
-   A machine learning model is trained to classify compounds based on the generated spectral data.
-
----
-
-# Pipeline Architecture
-
-Synthetic dataset generation:
-
-```
-peak lists (ppm + intensity)
-        ↓
-Synthetic NMR generator
-        ↓
-vector spectra + PNG spectra
+```text
+nmr_artifacts_fusion.zip
 ```
 
-Spectral analysis pipeline:
+Expected structure:
 
-```
-NMR spectrum vector
-        ↓
-preprocessing
-        ↓
-machine learning model
-        ↓
-compound prediction
-```
-
----
-
-# Dataset
-
-The dataset used for training is generated using the repository:
-
-https://github.com/golianr/SyntheticNmrGenerator
-
-The generator produces:
-
-* synthetic **¹H NMR spectra vectors**
-* corresponding **PNG spectral plots**
-* metadata files linking spectra to compounds
-
-Dataset structure example:
-
-```
-nmr_dataset/
-    images/
-        ethanol/
-        acetone/
-        toluene/
-    vectors/
-        ethanol/
-        acetone/
-        toluene/
-    index.csv
-    label_map.json
+```text
+NMR-Spectra_Analysis-Model/
+├── app.py
+├── requirements.txt
+├── run_linux.sh
+├── run_windows.bat
+├── nmr_artifacts_fusion.zip   <-- add this manually
+└── examples/
 ```
 
----
+The ZIP should contain at least:
 
-# Technologies Used
+```text
+*.keras
+label_map.json
+thresholds.json or similar threshold/config file
+config.json or model_config.json
+```
 
-Python 3.x
+## Ubuntu / Linux
 
-Main libraries:
+```bash
+chmod +x run_linux.sh
+./run_linux.sh
+```
 
-* NumPy
-* pandas
-* scikit-learn
-* PyTorch
-* torchvision
-* matplotlib
+Then open:
 
----
+```text
+http://127.0.0.1:7860
+```
 
-# Model Goals
+The script creates a fresh `.venv` automatically if it does not exist.
 
-The primary objective of this repository is to:
+## Windows
 
-* train machine learning models on NMR spectral vectors
-* evaluate compound classification accuracy
-* experiment with different neural network architectures
+Double-click:
 
-Potential future extensions include:
+```text
+run_windows.bat
+```
 
-* mixture spectrum detection
-* CNN models for spectrum images
-* multi-label compound prediction
-* integration with real experimental NMR data
+Then open:
 
----
+```text
+http://127.0.0.1:7860
+```
 
-# Future Work
+## Input formats
 
-Planned improvements:
+### `.npy` vector
 
-* larger synthetic datasets
-* improved spectral augmentation
-* support for mixture spectra
-* evaluation on real experimental NMR datasets
+A 1D NumPy array. If its length does not match the model input length, it is interpolated.
 
----
+### Vector CSV/TXT
 
-# Related Repository
+```csv
+intensity
+0.0
+0.02
+0.15
+```
 
-Synthetic dataset generator used in this project:
+### XY spectrum CSV/TXT
 
-https://github.com/golianr/SyntheticNmrGenerator
+```csv
+ppm,intensity
+7.26,0.8
+7.25,1.0
+```
 
-This generator creates the synthetic NMR spectra used to train and evaluate the models in this repository.
+### Peak list CSV/TXT
 
----
+For ¹H, include multiplicity metadata when possible:
 
-# Authors:
+```csv
+ppm,intensity,n_neighbors,j_hz_typical,exchangeable
+3.66,0.667,3,7.1,False
+1.18,1.000,2,7.1,False
+```
 
-Richard Golian
+`n_neighbors=3` generates a quartet. `n_neighbors=2` generates a triplet.
+
+## Example ethanol files
+
+The `examples/` directory contains small ethanol demo peak lists. The training-compatible ¹H example includes multiplicity information and is preferred over center-only peak lists.
+
+## Notes
+
+The model can only predict compounds that exist in its `label_map.json`. If the real spectrum is outside the trained label set, the app will choose the closest known class.
