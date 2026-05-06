@@ -1,0 +1,5 @@
+compound,ppm,intensity,n_neighbors,j_hz_typical,exchangeable,nucleus,multiplicity_model,multiplicity_true,integral_protons,equivalent_nuclei,functional_group,carbon_type,attached_h_count,reference_solvent,component_weight,source_intensity,linewidth
+triethylamine,47.1,0.55,0,7.0,False,13C,s,decoupled,,3,CH2-N,CH2,2.0,CDCl3,0.55,1.0,0.28
+triethylamine,8.6,0.55,0,7.0,False,13C,s,decoupled,,3,terminal CH3,CH3,3.0,CDCl3,0.55,1.0,0.28
+diethylamine,47.0,0.45,0,7.0,False,13C,s,decoupled,,2,CH2-N,CH2,2.0,CDCl3,0.45,1.0,0.28
+diethylamine,12.8,0.45,0,7.0,False,13C,s,decoupled,,2,terminal CH3,CH3,3.0,CDCl3,0.45,1.0,0.28

@@ -2,7 +2,7 @@
 cd /d %~dp0
 
 if not exist .venv (
-  echo Creating new virtual environment in .venv ...
+  echo Creating new virtual environment .venv ...
   py -m venv .venv
 )
 

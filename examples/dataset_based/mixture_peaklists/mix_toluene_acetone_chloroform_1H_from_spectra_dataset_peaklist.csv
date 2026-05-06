@@ -1,0 +1,5 @@
+compound,ppm,intensity,n_neighbors,j_hz_typical,exchangeable,nucleus,multiplicity_model,multiplicity_true,integral_protons,equivalent_nuclei,functional_group,carbon_type,attached_h_count,reference_solvent,component_weight,source_intensity,linewidth
+toluene,7.18,0.4,0,7.0,False,1H,m,m,5.0,5,aromatic CH,,,CDCl3,0.4,1.0,0.006
+toluene,2.34,0.24,0,7.0,False,1H,s,s,3.0,3,benzylic CH3,,,CDCl3,0.4,0.6,0.006
+acetone,2.17,0.35,0,7.0,False,1H,s,s,6.0,6,methyl ketone,,,CDCl3,0.35,1.0,0.006
+chloroform,7.26,0.25,0,7.0,False,1H,s,s,1.0,1,trihalomethane CH,,,CDCl3,0.25,1.0,0.006

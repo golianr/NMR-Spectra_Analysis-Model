@@ -1,0 +1,9 @@
+compound,ppm,intensity,n_neighbors,j_hz_typical,exchangeable,nucleus,multiplicity_model,multiplicity_true,integral_protons,equivalent_nuclei,functional_group,carbon_type,attached_h_count,reference_solvent,component_weight,source_intensity,linewidth
+acetic_acid,2.1,0.34,0,7.0,False,1H,s,s,3.0,3,methyl next to carboxyl,,,CDCl3,0.34,1.0,0.006
+acetic_acid,11.4,0.11322000000000002,0,7.0,True,1H,br s,br s,1.0,1,carboxylic acid OH,,,CDCl3,0.34,0.333,0.006
+ethanol,3.66,0.22011000000000003,3,7.1,False,1H,q,q,2.0,2,CH2-O,,,CDCl3,0.33,0.667,0.006
+ethanol,1.18,0.33,2,7.1,False,1H,t,t,3.0,3,alkyl CH3,,,CDCl3,0.33,1.0,0.006
+ethanol,1.5,0.10989000000000002,0,7.0,True,1H,br s,br s,1.0,1,alcohol OH,,,CDCl3,0.33,0.333,0.006
+ethyl_acetate,4.12,0.22011000000000003,3,7.1,False,1H,q,q,2.0,2,O-CH2,,,CDCl3,0.33,0.667,0.006
+ethyl_acetate,2.05,0.33,0,7.0,False,1H,s,s,3.0,3,acetyl CH3,,,CDCl3,0.33,1.0,0.006
+ethyl_acetate,1.26,0.33,2,7.1,False,1H,t,t,3.0,3,terminal CH3,,,CDCl3,0.33,1.0,0.006

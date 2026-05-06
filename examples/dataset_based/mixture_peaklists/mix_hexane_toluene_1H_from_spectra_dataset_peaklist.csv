@@ -1,0 +1,5 @@
+compound,ppm,intensity,n_neighbors,j_hz_typical,exchangeable,nucleus,multiplicity_model,multiplicity_true,integral_protons,equivalent_nuclei,functional_group,carbon_type,attached_h_count,reference_solvent,component_weight,source_intensity,linewidth
+hexane,1.27,0.55,0,7.0,False,1H,m,m,8.0,8,internal CH2,,,CDCl3,0.55,1.0,0.006
+hexane,0.88,0.41250000000000003,2,7.0,False,1H,t,t,6.0,6,terminal CH3,,,CDCl3,0.55,0.75,0.006
+toluene,7.18,0.45,0,7.0,False,1H,m,m,5.0,5,aromatic CH,,,CDCl3,0.45,1.0,0.006
+toluene,2.34,0.27,0,7.0,False,1H,s,s,3.0,3,benzylic CH3,,,CDCl3,0.45,0.6,0.006

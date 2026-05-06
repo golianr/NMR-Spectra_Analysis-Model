@@ -1,0 +1,5 @@
+compound,ppm,intensity,n_neighbors,j_hz_typical,exchangeable,nucleus,multiplicity_model,multiplicity_true,integral_protons,equivalent_nuclei,functional_group,carbon_type,attached_h_count,reference_solvent,component_weight,source_intensity,linewidth
+methyl_acetate,3.67,0.55,0,7.0,False,1H,s,s,3.0,3,O-CH3,,,CDCl3,0.55,1.0,0.006
+methyl_acetate,2.06,0.55,0,7.0,False,1H,s,s,3.0,3,acetyl CH3,,,CDCl3,0.55,1.0,0.006
+methyl_formate,8.1,0.14985,0,7.0,False,1H,s,s,1.0,1,formyl H,,,CDCl3,0.45,0.333,0.006
+methyl_formate,3.75,0.45,0,7.0,False,1H,s,s,3.0,3,O-CH3,,,CDCl3,0.45,1.0,0.006

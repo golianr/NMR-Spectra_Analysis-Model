@@ -1,0 +1,7 @@
+compound,ppm,intensity,n_neighbors,j_hz_typical,exchangeable,nucleus,multiplicity_model,multiplicity_true,integral_protons,equivalent_nuclei,functional_group,carbon_type,attached_h_count,reference_solvent,component_weight,source_intensity,linewidth
+diethyl_ether,3.43,0.26680000000000004,3,7.0,False,1H,q,q,4.0,4,CH2-O,,,CDCl3,0.4,0.667,0.006
+diethyl_ether,1.18,0.4,2,7.0,False,1H,t,t,6.0,6,alkyl CH3,,,CDCl3,0.4,1.0,0.006
+acetone,2.17,0.3,0,7.0,False,1H,s,s,6.0,6,methyl ketone,,,CDCl3,0.3,1.0,0.006
+ethanol,3.66,0.2001,3,7.1,False,1H,q,q,2.0,2,CH2-O,,,CDCl3,0.3,0.667,0.006
+ethanol,1.18,0.3,2,7.1,False,1H,t,t,3.0,3,alkyl CH3,,,CDCl3,0.3,1.0,0.006
+ethanol,1.5,0.0999,0,7.0,True,1H,br s,br s,1.0,1,alcohol OH,,,CDCl3,0.3,0.333,0.006

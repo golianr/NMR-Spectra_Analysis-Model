@@ -1,0 +1,9 @@
+compound,ppm,intensity,n_neighbors,j_hz_typical,exchangeable,nucleus,multiplicity_model,multiplicity_true,integral_protons,equivalent_nuclei,functional_group,carbon_type,attached_h_count,reference_solvent,component_weight,source_intensity,linewidth
+toluene,137.9,0.4,0,7.0,False,13C,s,decoupled,,1,ipso aromatic C,quaternary,0.0,CDCl3,0.4,1.0,0.28
+toluene,129.3,0.4,0,7.0,False,13C,s,decoupled,,2,ortho aromatic CH,CH,1.0,CDCl3,0.4,1.0,0.28
+toluene,128.3,0.4,0,7.0,False,13C,s,decoupled,,2,meta aromatic CH,CH,1.0,CDCl3,0.4,1.0,0.28
+toluene,125.6,0.4,0,7.0,False,13C,s,decoupled,,1,para aromatic CH,CH,1.0,CDCl3,0.4,1.0,0.28
+toluene,21.2,0.4,0,7.0,False,13C,s,decoupled,,1,benzylic CH3,CH3,3.0,CDCl3,0.4,1.0,0.28
+acetone,206.7,0.35,0,7.0,False,13C,s,decoupled,,1,ketone carbonyl,quaternary,0.0,CDCl3,0.35,1.0,0.28
+acetone,29.8,0.35,0,7.0,False,13C,s,decoupled,,2,methyl ketone carbon,CH3,3.0,CDCl3,0.35,1.0,0.28
+chloroform,77.2,0.25,0,7.0,False,13C,s,decoupled,,1,trihalomethane carbon,CH,1.0,CDCl3,0.25,1.0,0.28

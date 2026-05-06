@@ -1,0 +1,3 @@
+compound,ppm,intensity,n_neighbors,j_hz_typical,exchangeable,nucleus,multiplicity_model,multiplicity_true,integral_protons,equivalent_nuclei,functional_group,carbon_type,attached_h_count,reference_solvent,component_weight,source_intensity,linewidth
+methanol,3.49,1.0,0,7.0,False,1H,s,s,3.0,3,O-CH3,,,CDCl3,1.0,1.0,0.006
+methanol,4.87,0.333,0,7.0,True,1H,br s,br s,1.0,1,alcohol OH,,,CDCl3,1.0,0.333,0.006

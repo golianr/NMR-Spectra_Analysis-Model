@@ -1,0 +1,9 @@
+compound,ppm,intensity,n_neighbors,j_hz_typical,exchangeable,nucleus,multiplicity_model,multiplicity_true,integral_protons,equivalent_nuclei,functional_group,carbon_type,attached_h_count,reference_solvent,component_weight,source_intensity,linewidth
+hexane,31.7,0.55,0,7.0,False,13C,s,decoupled,,2,internal CH2,CH2,2.0,CDCl3,0.55,1.0,0.28
+hexane,22.7,0.55,0,7.0,False,13C,s,decoupled,,2,beta CH2,CH2,2.0,CDCl3,0.55,1.0,0.28
+hexane,14.1,0.55,0,7.0,False,13C,s,decoupled,,2,terminal CH3,CH3,3.0,CDCl3,0.55,1.0,0.28
+toluene,137.9,0.45,0,7.0,False,13C,s,decoupled,,1,ipso aromatic C,quaternary,0.0,CDCl3,0.45,1.0,0.28
+toluene,129.3,0.45,0,7.0,False,13C,s,decoupled,,2,ortho aromatic CH,CH,1.0,CDCl3,0.45,1.0,0.28
+toluene,128.3,0.45,0,7.0,False,13C,s,decoupled,,2,meta aromatic CH,CH,1.0,CDCl3,0.45,1.0,0.28
+toluene,125.6,0.45,0,7.0,False,13C,s,decoupled,,1,para aromatic CH,CH,1.0,CDCl3,0.45,1.0,0.28
+toluene,21.2,0.45,0,7.0,False,13C,s,decoupled,,1,benzylic CH3,CH3,3.0,CDCl3,0.45,1.0,0.28

@@ -1,0 +1,3 @@
+compound,ppm,intensity,n_neighbors,j_hz_typical,exchangeable,nucleus,multiplicity_model,multiplicity_true,integral_protons,equivalent_nuclei,functional_group,carbon_type,attached_h_count,reference_solvent,component_weight,source_intensity,linewidth
+cyclohexane,1.43,0.55,0,7.0,False,1H,br s,br s,12.0,12,cycloalkane CH2,,,CDCl3,0.55,1.0,0.006
+benzene,7.36,0.45,0,7.0,False,1H,s,s,6.0,6,aromatic CH,,,CDCl3,0.45,1.0,0.006

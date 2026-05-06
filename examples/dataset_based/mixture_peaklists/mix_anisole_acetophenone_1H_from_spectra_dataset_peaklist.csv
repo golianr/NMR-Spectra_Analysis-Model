@@ -1,0 +1,9 @@
+compound,ppm,intensity,n_neighbors,j_hz_typical,exchangeable,nucleus,multiplicity_model,multiplicity_true,integral_protons,equivalent_nuclei,functional_group,carbon_type,attached_h_count,reference_solvent,component_weight,source_intensity,linewidth
+anisole,7.27,0.36685000000000006,0,7.0,False,1H,t,t,2.0,2,meta aromatic H,,,CDCl3,0.55,0.667,0.006
+anisole,6.91,0.36685000000000006,0,7.0,False,1H,d,d,2.0,2,ortho aromatic H,,,CDCl3,0.55,0.667,0.006
+anisole,6.87,0.18315000000000003,0,7.0,False,1H,t,t,1.0,1,para aromatic H,,,CDCl3,0.55,0.333,0.006
+anisole,3.8,0.55,0,7.0,False,1H,s,s,3.0,3,O-CH3,,,CDCl3,0.55,1.0,0.006
+acetophenone,7.95,0.30015000000000003,0,7.0,False,1H,d,d,2.0,2,ortho aromatic H,,,CDCl3,0.45,0.667,0.006
+acetophenone,7.57,0.14985,0,7.0,False,1H,t,t,1.0,1,para aromatic H,,,CDCl3,0.45,0.333,0.006
+acetophenone,7.47,0.30015000000000003,0,7.0,False,1H,t,t,2.0,2,meta aromatic H,,,CDCl3,0.45,0.667,0.006
+acetophenone,2.6,0.45,0,7.0,False,1H,s,s,3.0,3,acetyl CH3,,,CDCl3,0.45,1.0,0.006

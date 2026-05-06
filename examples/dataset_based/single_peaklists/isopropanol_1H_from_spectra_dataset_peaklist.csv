@@ -1,0 +1,4 @@
+compound,ppm,intensity,n_neighbors,j_hz_typical,exchangeable,nucleus,multiplicity_model,multiplicity_true,integral_protons,equivalent_nuclei,functional_group,carbon_type,attached_h_count,reference_solvent,component_weight,source_intensity,linewidth
+isopropanol,3.92,0.167,6,6.2,False,1H,sept,sept,1.0,1,CHOH methine,,,CDCl3,1.0,0.167,0.006
+isopropanol,1.17,1.0,1,6.2,False,1H,d,d,6.0,6,isopropyl CH3,,,CDCl3,1.0,1.0,0.006
+isopropanol,1.95,0.167,0,7.0,True,1H,br s,br s,1.0,1,alcohol OH,,,CDCl3,1.0,0.167,0.006

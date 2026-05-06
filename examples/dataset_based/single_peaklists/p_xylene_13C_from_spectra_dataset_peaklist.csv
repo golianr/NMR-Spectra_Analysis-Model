@@ -1,0 +1,6 @@
+compound,ppm,intensity,n_neighbors,j_hz_typical,exchangeable,nucleus,multiplicity_model,multiplicity_true,integral_protons,equivalent_nuclei,functional_group,carbon_type,attached_h_count,reference_solvent,component_weight,source_intensity,linewidth
+p_xylene,137.1,1.0,0,7.0,False,13C,s,decoupled,,2,ipso aromatic C,quaternary,0.0,CDCl3,1.0,1.0,0.28
+p_xylene,129.2,1.0,0,7.0,False,13C,s,decoupled,,2,ortho aromatic CH,CH,1.0,CDCl3,1.0,1.0,0.28
+p_xylene,129.0,1.0,0,7.0,False,13C,s,decoupled,,2,meta aromatic CH,CH,1.0,CDCl3,1.0,1.0,0.28
+p_xylene,125.6,1.0,0,7.0,False,13C,s,decoupled,,1,para aromatic CH,CH,1.0,CDCl3,1.0,1.0,0.28
+p_xylene,21.2,1.0,0,7.0,False,13C,s,decoupled,,2,aryl CH3,CH3,3.0,CDCl3,1.0,1.0,0.28

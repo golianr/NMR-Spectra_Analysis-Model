@@ -1,0 +1,4 @@
+compound,ppm,intensity,n_neighbors,j_hz_typical,exchangeable,nucleus,multiplicity_model,multiplicity_true,integral_protons,equivalent_nuclei,functional_group,carbon_type,attached_h_count,reference_solvent,component_weight,source_intensity,linewidth
+methanol,49.0,0.55,0,7.0,False,13C,s,decoupled,,1,O-CH3,CH3,3.0,CDCl3,0.55,1.0,0.28
+acetonitrile,118.7,0.45,0,7.0,False,13C,s,decoupled,,1,nitrile carbon,quaternary,0.0,CDCl3,0.45,1.0,0.28
+acetonitrile,1.2,0.45,0,7.0,False,13C,s,decoupled,,1,CH3-CN,CH3,3.0,CDCl3,0.45,1.0,0.28

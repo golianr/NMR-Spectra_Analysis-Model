@@ -1,0 +1,5 @@
+compound,ppm,intensity,n_neighbors,j_hz_typical,exchangeable,nucleus,multiplicity_model,multiplicity_true,integral_protons,equivalent_nuclei,functional_group,carbon_type,attached_h_count,reference_solvent,component_weight,source_intensity,linewidth
+tetrahydrofuran,67.7,0.4,0,7.0,False,13C,s,decoupled,,2,O-CH2,CH2,2.0,CDCl3,0.4,1.0,0.28
+tetrahydrofuran,25.7,0.4,0,7.0,False,13C,s,decoupled,,2,beta CH2 to O,CH2,2.0,CDCl3,0.4,1.0,0.28
+dioxane,67.0,0.3,0,7.0,False,13C,s,decoupled,,4,O-CH2,CH2,2.0,CDCl3,0.3,1.0,0.28
+methanol,49.0,0.3,0,7.0,False,13C,s,decoupled,,1,O-CH3,CH3,3.0,CDCl3,0.3,1.0,0.28

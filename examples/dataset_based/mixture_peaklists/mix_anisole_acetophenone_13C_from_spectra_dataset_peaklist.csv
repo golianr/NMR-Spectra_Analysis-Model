@@ -1,0 +1,12 @@
+compound,ppm,intensity,n_neighbors,j_hz_typical,exchangeable,nucleus,multiplicity_model,multiplicity_true,integral_protons,equivalent_nuclei,functional_group,carbon_type,attached_h_count,reference_solvent,component_weight,source_intensity,linewidth
+anisole,159.4,0.55,0,7.0,False,13C,s,decoupled,,1,ipso C-O,quaternary,0.0,CDCl3,0.55,1.0,0.28
+anisole,129.4,0.55,0,7.0,False,13C,s,decoupled,,2,meta aromatic CH,CH,1.0,CDCl3,0.55,1.0,0.28
+anisole,121.2,0.55,0,7.0,False,13C,s,decoupled,,1,para aromatic CH,CH,1.0,CDCl3,0.55,1.0,0.28
+anisole,114.0,0.55,0,7.0,False,13C,s,decoupled,,2,ortho aromatic CH,CH,1.0,CDCl3,0.55,1.0,0.28
+anisole,55.4,0.55,0,7.0,False,13C,s,decoupled,,1,O-CH3,CH3,3.0,CDCl3,0.55,1.0,0.28
+acetophenone,197.7,0.45,0,7.0,False,13C,s,decoupled,,1,ketone carbonyl,quaternary,0.0,CDCl3,0.45,1.0,0.28
+acetophenone,136.7,0.45,0,7.0,False,13C,s,decoupled,,1,ipso aromatic C,quaternary,0.0,CDCl3,0.45,1.0,0.28
+acetophenone,133.0,0.45,0,7.0,False,13C,s,decoupled,,1,para aromatic CH,CH,1.0,CDCl3,0.45,1.0,0.28
+acetophenone,128.5,0.45,0,7.0,False,13C,s,decoupled,,2,ortho aromatic CH,CH,1.0,CDCl3,0.45,1.0,0.28
+acetophenone,128.4,0.45,0,7.0,False,13C,s,decoupled,,2,meta aromatic CH,CH,1.0,CDCl3,0.45,1.0,0.28
+acetophenone,26.7,0.45,0,7.0,False,13C,s,decoupled,,1,acetyl CH3,CH3,3.0,CDCl3,0.45,1.0,0.28

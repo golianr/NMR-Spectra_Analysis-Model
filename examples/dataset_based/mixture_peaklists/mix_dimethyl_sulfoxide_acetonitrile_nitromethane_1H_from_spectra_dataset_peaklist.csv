@@ -1,0 +1,4 @@
+compound,ppm,intensity,n_neighbors,j_hz_typical,exchangeable,nucleus,multiplicity_model,multiplicity_true,integral_protons,equivalent_nuclei,functional_group,carbon_type,attached_h_count,reference_solvent,component_weight,source_intensity,linewidth
+dimethyl_sulfoxide,2.5,0.4,0,7.0,False,1H,s,s,6.0,6,S(O)-CH3,,,CDCl3,0.4,1.0,0.006
+acetonitrile,2.1,0.3,0,7.0,False,1H,s,s,3.0,3,CH3-CN,,,CDCl3,0.3,1.0,0.006
+nitromethane,4.33,0.3,0,7.0,False,1H,s,s,3.0,3,CH3-NO2,,,CDCl3,0.3,1.0,0.006

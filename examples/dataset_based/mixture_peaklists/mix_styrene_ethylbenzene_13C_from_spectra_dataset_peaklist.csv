@@ -1,0 +1,13 @@
+compound,ppm,intensity,n_neighbors,j_hz_typical,exchangeable,nucleus,multiplicity_model,multiplicity_true,integral_protons,equivalent_nuclei,functional_group,carbon_type,attached_h_count,reference_solvent,component_weight,source_intensity,linewidth
+styrene,136.8,0.5,0,7.0,False,13C,s,decoupled,,1,ipso aromatic C,quaternary,0.0,CDCl3,0.5,1.0,0.28
+styrene,136.5,0.5,0,7.0,False,13C,s,decoupled,,1,vinyl CH,CH,1.0,CDCl3,0.5,1.0,0.28
+styrene,128.5,0.5,0,7.0,False,13C,s,decoupled,,2,ortho aromatic CH,CH,1.0,CDCl3,0.5,1.0,0.28
+styrene,128.1,0.5,0,7.0,False,13C,s,decoupled,,2,meta aromatic CH,CH,1.0,CDCl3,0.5,1.0,0.28
+styrene,126.2,0.5,0,7.0,False,13C,s,decoupled,,1,para aromatic CH,CH,1.0,CDCl3,0.5,1.0,0.28
+styrene,114.1,0.5,0,7.0,False,13C,s,decoupled,,1,vinyl CH2,CH2,2.0,CDCl3,0.5,1.0,0.28
+ethylbenzene,144.5,0.5,0,7.0,False,13C,s,decoupled,,1,ipso aromatic C,quaternary,0.0,CDCl3,0.5,1.0,0.28
+ethylbenzene,128.5,0.5,0,7.0,False,13C,s,decoupled,,2,ortho aromatic CH,CH,1.0,CDCl3,0.5,1.0,0.28
+ethylbenzene,127.9,0.5,0,7.0,False,13C,s,decoupled,,2,meta aromatic CH,CH,1.0,CDCl3,0.5,1.0,0.28
+ethylbenzene,125.7,0.5,0,7.0,False,13C,s,decoupled,,1,para aromatic CH,CH,1.0,CDCl3,0.5,1.0,0.28
+ethylbenzene,28.7,0.5,0,7.0,False,13C,s,decoupled,,1,benzylic CH2,CH2,2.0,CDCl3,0.5,1.0,0.28
+ethylbenzene,15.6,0.5,0,7.0,False,13C,s,decoupled,,1,terminal CH3,CH3,3.0,CDCl3,0.5,1.0,0.28

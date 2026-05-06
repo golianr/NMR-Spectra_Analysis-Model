@@ -1,0 +1,8 @@
+compound,ppm,intensity,n_neighbors,j_hz_typical,exchangeable,nucleus,multiplicity_model,multiplicity_true,integral_protons,equivalent_nuclei,functional_group,carbon_type,attached_h_count,reference_solvent,component_weight,source_intensity,linewidth
+styrene,7.25,0.5,0,7.0,False,1H,m,m,5.0,5,aromatic CH,,,CDCl3,0.5,1.0,0.006
+styrene,6.69,0.1,0,7.0,False,1H,dd,dd,1.0,1,vinyl CH,,,CDCl3,0.5,0.2,0.006
+styrene,5.73,0.1,0,7.0,False,1H,d,d,1.0,1,vinyl CH2 trans,,,CDCl3,0.5,0.2,0.006
+styrene,5.23,0.1,0,7.0,False,1H,d,d,1.0,1,vinyl CH2 cis,,,CDCl3,0.5,0.2,0.006
+ethylbenzene,7.2,0.5,0,7.0,False,1H,m,m,5.0,5,aromatic CH,,,CDCl3,0.5,1.0,0.006
+ethylbenzene,2.62,0.2,3,7.5,False,1H,q,q,2.0,2,benzylic CH2,,,CDCl3,0.5,0.4,0.006
+ethylbenzene,1.2,0.3,2,7.5,False,1H,t,t,3.0,3,terminal CH3,,,CDCl3,0.5,0.6,0.006

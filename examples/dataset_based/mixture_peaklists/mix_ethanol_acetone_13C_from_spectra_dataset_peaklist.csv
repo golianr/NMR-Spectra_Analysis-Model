@@ -1,0 +1,5 @@
+compound,ppm,intensity,n_neighbors,j_hz_typical,exchangeable,nucleus,multiplicity_model,multiplicity_true,integral_protons,equivalent_nuclei,functional_group,carbon_type,attached_h_count,reference_solvent,component_weight,source_intensity,linewidth
+ethanol,58.3,0.55,0,7.0,False,13C,s,decoupled,,1,CH2-O,CH2,2.0,CDCl3,0.55,1.0,0.28
+ethanol,18.4,0.55,0,7.0,False,13C,s,decoupled,,1,alkyl CH3,CH3,3.0,CDCl3,0.55,1.0,0.28
+acetone,206.7,0.45,0,7.0,False,13C,s,decoupled,,1,ketone carbonyl,quaternary,0.0,CDCl3,0.45,1.0,0.28
+acetone,29.8,0.45,0,7.0,False,13C,s,decoupled,,2,methyl ketone carbon,CH3,3.0,CDCl3,0.45,1.0,0.28

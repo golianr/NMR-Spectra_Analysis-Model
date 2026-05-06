@@ -1,0 +1,5 @@
+compound,ppm,intensity,n_neighbors,j_hz_typical,exchangeable,nucleus,multiplicity_model,multiplicity_true,integral_protons,equivalent_nuclei,functional_group,carbon_type,attached_h_count,reference_solvent,component_weight,source_intensity,linewidth
+ethyl_acetate,170.8,1.0,0,7.0,False,13C,s,decoupled,,1,ester carbonyl,quaternary,0.0,CDCl3,1.0,1.0,0.28
+ethyl_acetate,60.3,1.0,0,7.0,False,13C,s,decoupled,,1,O-CH2,CH2,2.0,CDCl3,1.0,1.0,0.28
+ethyl_acetate,20.8,1.0,0,7.0,False,13C,s,decoupled,,1,acetyl CH3,CH3,3.0,CDCl3,1.0,1.0,0.28
+ethyl_acetate,14.2,1.0,0,7.0,False,13C,s,decoupled,,1,terminal CH3,CH3,3.0,CDCl3,1.0,1.0,0.28
