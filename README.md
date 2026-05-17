@@ -272,3 +272,7 @@ Faculty of Informatics, Masaryk University
 ```text
 https://github.com/golianr/NMR-Spectra_Analysis-Model
 ```
+
+## Acknowledgements
+
+ChatGPT by OpenAI was used as a writing and documentation assistant during the preparation of the README, presentation, and project documentation.
